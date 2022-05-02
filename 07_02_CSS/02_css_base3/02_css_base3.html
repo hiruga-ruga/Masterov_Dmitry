@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menu{
+            width: 15em;
+            float: left;
+            background-color: blueviolet;
+        }
+        .content{
+            background-color: brown;
+            margin-bottom: 1em;
+        }
+        .mail{
+            float: right;
+        }
+        .footer{
+            clear: both;
+            background-color: aqua;
+        }
+        .clear{
+            clear: both;
+        }
+        .osn{
+            background-color: bisque;
+            margin-bottom: 1em;
+        }
+        .wrap{
+            background-color: aquamarine;
+            margin-left: 240px;
+        }
+        p{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="osn">
+        <div class="menu">
+            <p>Блок навигации</p>
+            <ul>
+                <li>Ширина 15em</li>
+                <li>Должен присутствовать цвет фона</li>
+                <li>Располагается слева</li>
+                <li>Блок навигации наполните контентом достаточным, чтобы по высоте он начинал захватывать вторую статью,
+                 как показано в данном примере</li>
+            </ul>
+        </div>
+    <div class="content">
+         <p>Статья 1</p>
+            Размер блока: <br>
+            Занимает всю доступную ширину <br>
+            Должен присутствовать цвет фона <br>
+            Во всех статьях сделайте отступ снизу от соседей равным .2ем , при помощи свойства
+             марджинботтом
+    </div>
+    <div class="wrap">
+        <div class="content">
+            <p>Статья 2</p>
+            Размер блока: <br>
+            Занимает всю доступную ширину <br>
+            Должен присутствовать цвет фона <br>
+            Во всех статьях сделайте отступ снизу от соседей равным .2ем , при помощи свойства марджинботтом. 
+            Картинка вставлена при помощи тега, плавание организовано по правому краю внутри данной статьи для этой картинки.
+            <div class="mail"><img src="kartinka.png" alt=""></div>
+            <div class="clear"></div>
+        </div>
+        </div>
+    </div>
+    
+<div class="footer"> 
+Нижний блок, подвал. Занимает всю доступную ширину. Высота определяется помещенным внутрь контентом.
+</div>
+</body>
+</html>
